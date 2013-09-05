@@ -1,0 +1,12 @@
+***********
+2013-07-16 15:44:00,620  INFO AdsServiceLoggers: 
+***********
+Request made: Service: "RateCardServiceInterfacePort" Method: "getRateCardsByStatement" URL: "https://www.google.com/apis/ads/publisher/v201306/RateCardService"
+***********
+2013-07-22 15:33:37,598  INFO AdsServiceLoggers: 
+***********
+Request made: Service: "RateCardCustomizationServiceInterfacePort" Method: "getRateCardCustomizationsByStatement" URL: "https://www.google.com/apis/ads/publisher/v201306/RateCardCustomizationService"
+***********
+2013-07-22 15:34:09,100  INFO AdsServiceLoggers: 
+***********
+Request made: Service: "WorkflowActionServiceInterfacePort" Method: "getWorkflowActionsByStatement" URL: "https://www.google.com/apis/ads/publisher/v201306/WorkflowActionService"

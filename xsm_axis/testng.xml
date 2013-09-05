@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="xsm api test" verbose="1">
+    <test name="baserateservice">
+        <classes>
+            <class name="xsm.axis.v201306.baserateservice.baserateserviceTest" />
+        </classes>
+    </test>
+    <test name="networkservice">
+        <classes>
+            <class name="xsm.axis.v201306.networkservice.networkserviceTest" />
+        </classes>
+    </test>
+    <test name="ratecardservice">
+        <classes>
+            <class name="xsm.axis.v201306.ratecardservice.ratecardserviceTest" />
+        </classes>
+    </test>
+    <test name="ratecardcustomizationservice">
+        <classes>
+            <class name="xsm.axis.v201306.ratecardcustomizationservice.ratecardcustomizationserviceTest" />
+        </classes>
+    </test>
+    <test name="workflowactionservice">
+        <classes>
+            <class name="xsm.axis.v201306.workflowactionservice.workflowactionserviceTest" />
+        </classes>
+    </test>
+</suite>
