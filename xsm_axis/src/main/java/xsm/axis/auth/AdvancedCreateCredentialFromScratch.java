@@ -57,16 +57,13 @@ public class AdvancedCreateCredentialFromScratch {
 
   // If you do not have a client ID or secret, please create one in the
   // API console: https://code.google.com/apis/console#access
-  // private static final String CLIENT_ID = "INSERT_CLIENT_ID_HERE";
-  // private static final String CLIENT_SECRET = "INSERT_CLIENT_SECRET_HERE";
-  private static final String CLIENT_ID = "649966154588-jnbs5ot3hmsgbuha1p0ctqoeqsoprfoo.apps.googleusercontent.com";
-  private static final String CLIENT_SECRET = "jf7jiTNtgCP02M-_tb5hQqgu";
+  private static final String CLIENT_ID = "INSERT_CLIENT_ID_HERE";
+  private static final String CLIENT_SECRET = "INSERT_CLIENT_SECRET_HERE";
 
   // The current user that is authenticating. This is typically a primary key
   // you define yourself that you will reference later in your code when
   // you retrieve the credential for that user.
-  // private static final String USER_ID = "INSERT_USER_ID_HERE";
-  private static final String USER_ID = "xsmtest@gmail.com";
+  private static final String USER_ID = "INSERT_USER_ID_HERE";
 
   private static void authorize(CredentialStore credentialStore, String userId) throws Exception {
     // Depending on your application, there may be more appropriate ways of
